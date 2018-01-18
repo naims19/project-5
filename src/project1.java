@@ -15,7 +15,7 @@ public class project1 {
 			System.out.println( i + "! is " + factorial(i));
 	}
 	
-	public static int factorial(int n)
+	public static int factorials(int n)
 	{	int result = 1;
 		for(int i = 2; i <= n; i++)
 			result *= i;
